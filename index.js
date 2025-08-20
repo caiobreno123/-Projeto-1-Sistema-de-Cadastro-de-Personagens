@@ -1,8 +1,8 @@
 const Personagem = require('./class/Personagem.js')
 
-const personagem1 = new Personagem('Bebo Véi', 'Guerreiro', 120)
-const personagem2 = new Personagem('Guilas', 'Mago', 70)
-const personagem3 = new Personagem('Botelho', 'Arqueiro', 95)
+const personagem1 = new Personagem('pruprupatapin', 'Guerreiro', 120)
+const personagem2 = new Personagem('loro jose', 'Mago', 70)
+const personagem3 = new Personagem('davinst', 'Arqueiro', 95)
 
 console.log("==================")
 personagem1.mostrarInfo()
@@ -15,4 +15,5 @@ personagem2.atacar()
 console.log("==================")
 personagem3.mostrarInfo()
 console.log("==================")
+
 personagem3.atacar()
